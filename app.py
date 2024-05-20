@@ -58,8 +58,6 @@ def clearSpeech():
 with gr.Blocks(css="style.css", title="文本转语音") as demo:
     gr.Markdown("""
     # 微软Edge文本转语音
-    公众号: 一只会飞的旺旺
-    博客: https://www.wangwangit.com
     """)
     with gr.Row():
         with gr.Column():
